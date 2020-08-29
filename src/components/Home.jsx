@@ -1,18 +1,18 @@
 import React from 'react'
 import styled from 'styled-components';
-import {SiCashapp} from 'react-icons/si';
+import { SiCashapp } from 'react-icons/si';
 
 const Home = () => {
   return (
     <HomeStyled>
       <HomeCenter className='section-center'>
         <HomeInfo>
-          <p>Hi, my name is</p>
           <TextAnimation>
+            <p>Hi, my name is</p>
             <h1>alex leung</h1>
           </TextAnimation>
           <TextAnimation bottom>
-            <h3>A software engineer at Cash App <SiCashapp style={{color:'#00D131', verticalAlign:'sub'}}/>
+            <h3>A software engineer at Cash App <SiCashapp style={{ color: '#00D131', verticalAlign: 'sub' }} />
             </h3>
           </TextAnimation>
         </HomeInfo>
@@ -29,7 +29,6 @@ const HomeStyled = styled.section`
 
 const HomeCenter = styled.div`
   height: 100%;
-  width: 70vw;
   display: flex;
   align-items: center;
 `;

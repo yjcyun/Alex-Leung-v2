@@ -22,7 +22,7 @@ const SocialLayout = styled.aside`
   @media(min-width: 1100px) {
     display:block;
     position: fixed;
-    bottom: 20%;
+    bottom: 12%;
     transform: translateY(50%);
     left: 3rem;
     z-index:99;
@@ -35,7 +35,7 @@ const SocialLayout = styled.aside`
       background-color: lightgrey;
       position:relative;
       top:10px;
-      margin-left: 13px;
+      margin-left: 10px;
     }
   }
 `;
