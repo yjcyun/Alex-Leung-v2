@@ -23,7 +23,6 @@ const Home = () => {
 
 const HomeStyled = styled.section`
   height: 100vh;
-  background: var(--clr-white);
   position: relative; 
 `;
 

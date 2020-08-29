@@ -1,15 +1,20 @@
 import React from 'react'
 import styled from 'styled-components';
 import Title from './Title';
+import Skills from './Skills';
 
 const About = () => {
   return (
     <AboutStyled className='section-center'>
-      <Title title='About Me'/>
+      <Title title='About Me' />
       <AboutCenter>
         <AboutInfo>
-          My formal training is in electrical engineering but have since pivoted into the fast-paced and dynamic field of software engineering. My current interests lie in applying effective software design in creating solutions to practical problems. In my free time I enjoy keeping up with my craft, reading, and spending time with my dogs.
-            </AboutInfo>
+          My formal training is in electrical engineering but have since pivoted into the fast-paced and dynamic field of software engineering. My current interests lie in applying effective software design in creating solutions to practical problems. In my free time I enjoy keeping up with my craft, reading, and spending time with my dogs. <br /><br />
+
+          Here are a few technologies I've been working with:
+          <Skills />
+
+        </AboutInfo>
         <img
           src='assets/about.jpg'
           alt='Alex with his dog'
@@ -32,7 +37,7 @@ const AboutCenter = styled.div`
   }
 `;
 
-const AboutInfo = styled.p`
+const AboutInfo = styled.div`
   text-align: left;
   line-height:1.8;
   font-weight: 1.2rem;

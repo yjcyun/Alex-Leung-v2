@@ -29,7 +29,7 @@ const IconsList = styled.li`
 
   a{
     font-size: 1.4rem;
-    color: var(--clr-black);
+    color: ${({ theme }) => theme.text};
   }
 
   @media(min-width: 1100px) {

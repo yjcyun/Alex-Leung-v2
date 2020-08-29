@@ -48,10 +48,6 @@ const IconsList = styled.li`
     font-size: 1.4rem;
     color: var(--clr-hover);
   }
-
-  a:hover {
-    color:var(--clr-black);
-  }
 `
 
 export default SocialLinks
