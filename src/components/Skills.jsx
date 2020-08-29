@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <SkillList>
       {skills.map(({ skill }) => (
-        <SkillItem key={skill}>{skill}</SkillItem>
+        <li key={skill}>{skill}</li>
       ))}
     </SkillList>
   )
@@ -15,21 +15,8 @@ const Skills = () => {
 const SkillList = styled.div`
   display:grid;
   grid-template-columns: repeat(2, minmax(130px, 200px));
-  list-style:none;
+  list-style:square;
   margin-top: 1rem;
-`
-
-const SkillItem = styled.li`
-  position:relative;
-  padding-left: 1.2rem;
-
-  &:before {
-   content:'♦';
-    position: absolute;
-    left: 0;
-    font-size:1rem;
-    color: var(--clr-highlight)
-  }
 `
 
 export default Skills
