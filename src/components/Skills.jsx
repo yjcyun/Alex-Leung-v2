@@ -14,7 +14,7 @@ const Skills = () => {
 
 const SkillList = styled.div`
   display:grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
+  grid-template-columns: repeat(2, minmax(130px, 200px));
   list-style:none;
   margin-top: 1rem;
 `

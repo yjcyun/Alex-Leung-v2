@@ -50,6 +50,7 @@ const HomeInfo = styled.div`
   p{
     font-size: 1.1rem;
     margin:0 0 1rem;
+    color: var(--clr-hover);
   }
 
   @media (min-width: 768px) {

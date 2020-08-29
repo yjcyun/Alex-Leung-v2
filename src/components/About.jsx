@@ -25,7 +25,7 @@ const About = () => {
 }
 
 const AboutStyled = styled.section`
-  padding:5rem 0;
+  padding:5rem 0 0;
 `;
 
 const AboutCenter = styled.div`

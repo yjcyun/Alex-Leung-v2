@@ -32,7 +32,7 @@ const AboutTitle = styled.div`
   }
 
   @media(max-width: 500px) {
-    &::after, &::before{
+    &:after, &:before{
       width: 40%;
     }
   }
