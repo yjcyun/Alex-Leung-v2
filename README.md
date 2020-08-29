@@ -10,14 +10,15 @@ This is a second version of <a href='https://alexleung.ca'>alexleung.ca</a> made
 
 2. Install dependencies
 
-  ```npm install```
+  `npm install`
 
 3. Start the development server
 
- ```npm start```
+ `npm start`
 
 
 ## :clipboard: Project src Folder Structure
+```bash
 src
 ├── components
 │   ├── color-theme
@@ -41,3 +42,4 @@ src
 ├── App.js
 ├── index.css
 └── index.js
+```
