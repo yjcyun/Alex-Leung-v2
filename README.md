@@ -16,6 +16,9 @@ This is a second version of <a href='https://alexleung.ca'>alexleung.ca</a> made
 
     `npm start`
 
+## :ship: Deployment
+
+    `npm run deploy`
 
 ## :clipboard: Project src Folder Structure
 ```bash
