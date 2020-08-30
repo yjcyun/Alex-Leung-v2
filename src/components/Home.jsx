@@ -12,8 +12,8 @@ const Home = () => {
             <h1>alex leung</h1>
           </TextAnimation>
           <TextAnimation bottom>
-            <h3>A software engineer with Cash <span>App
-              <SiCashapp className='cashapp-icon' /></span>
+            <h3>
+              A software engineer with <span>Cash App <SiCashapp className='cashapp-icon' /></span>
             </h3>
           </TextAnimation>
         </HomeInfo>
