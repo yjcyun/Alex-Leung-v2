@@ -12,7 +12,7 @@ const Home = () => {
             <h1>alex leung</h1>
           </TextAnimation>
           <TextAnimation bottom>
-            <h3>A software engineer at Cash App <SiCashapp style={{ color: '#00D131', verticalAlign: 'sub' }} />
+            <h3>A software engineer at Cash App <SiCashapp style={{color:'#00D131', marginLeft:'0.5rem'}} />
             </h3>
           </TextAnimation>
         </HomeInfo>
@@ -45,6 +45,8 @@ const HomeInfo = styled.div`
 
   h3 {
     font-size:1.2rem;
+    display:flex;
+    align-items:center;
   }
 
   p{
