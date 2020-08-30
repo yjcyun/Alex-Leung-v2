@@ -4,13 +4,12 @@ Fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 :root {
   --ff-primary: 'Lato', sans-serif;
-  --ff-secondary:'Rock Salt', cursive;
   --transition: all 0.2s linear;
   --max-width: 1170px;
   --clr-white: #fff;
   --clr-hover: #718093;
   --clr-black: #2f3640;
-  --clr-highlight: #1dd1a1;
+  --clr-highlight: #00D131;
 }
 
 * {
