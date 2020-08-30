@@ -3,8 +3,8 @@ export const skills = [
   {skill: 'Java'},
   {skill: 'Javascript'},
   {skill: 'HTML / CSS'},
-  {skill: 'TechA'},
-  {skill: 'TechB'},
-  {skill: 'TechC'},
-  {skill: 'TechD'}
+  {skill: 'SQL'},
+  {skill: 'Agile'},
+  {skill: 'Embedded Systems'},
+  {skill: 'Distributed Systems'}
 ];

@@ -12,7 +12,7 @@ const Home = () => {
             <h1>alex leung</h1>
           </TextAnimation>
           <TextAnimation bottom>
-            <h3>A software engineer at Cash App <SiCashapp style={{color:'#00D131', marginLeft:'0.5rem'}} />
+            <h3>A software engineer with Cash App <SiCashapp style={{color:'#00D131', marginLeft:'0.5rem'}} />
             </h3>
           </TextAnimation>
         </HomeInfo>

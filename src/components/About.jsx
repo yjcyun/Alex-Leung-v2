@@ -11,9 +11,7 @@ const About = () => {
         <AboutInfo>
           My formal training is in electrical engineering but have since pivoted into the fast-paced and dynamic field of software engineering. My current interests lie in applying effective software design in creating solutions to practical problems. In my free time I enjoy keeping up with my craft, reading, and spending time with my dogs. <br /><br />
 
-          Here are a few technologies I've been working with:
           <Skills />
-
         </AboutInfo>
         <img
           src='assets/about.jpg'

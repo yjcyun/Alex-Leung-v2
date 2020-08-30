@@ -1,4 +1,4 @@
-# alexleung.ca -v2
+# alexleung.ca-v2
 
 This is a second version of <a href='https://alexleung.ca'>alexleung.ca</a> made with Create React App.
 
@@ -10,11 +10,11 @@ This is a second version of <a href='https://alexleung.ca'>alexleung.ca</a> made
 
 2. Install dependencies
 
-  `npm install`
+    `npm install`
 
 3. Start the development server
 
- `npm start`
+    `npm start`
 
 
 ## :clipboard: Project src Folder Structure
