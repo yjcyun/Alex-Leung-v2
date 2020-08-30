@@ -12,8 +12,8 @@ const Home = () => {
             <h1>alex leung</h1>
           </TextAnimation>
           <TextAnimation bottom>
-            <h3>A software engineer with Cash App
-              <SiCashapp className='cashapp-icon' />
+            <h3>A software engineer with Cash <span>App
+              <SiCashapp className='cashapp-icon' /></span>
             </h3>
           </TextAnimation>
         </HomeInfo>
@@ -46,7 +46,6 @@ const HomeInfo = styled.div`
 
   h3 {
     font-size:1.2rem;
-    width: 100vw;
   }
 
   p{
@@ -54,6 +53,10 @@ const HomeInfo = styled.div`
     margin:0 0 1rem;
     color: var(--clr-hover);
     letter-spacing: 0.08rem;
+  }
+
+  span {
+    display:inline-block;
   }
 
   .cashapp-icon{
