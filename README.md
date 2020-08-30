@@ -18,6 +18,8 @@ This is a second version of <a href='https://alexleung.ca'>alexleung.ca</a> made
 
 ## :ship: Deployment
 
+1. Ensure the `CNAME` is correct, then deploy
+
     `npm run deploy`
 
 ## :clipboard: Project src Folder Structure
