@@ -46,6 +46,7 @@ const HomeInfo = styled.div`
 
   h3 {
     font-size:1.2rem;
+    width: 100vw;
   }
 
   p{
